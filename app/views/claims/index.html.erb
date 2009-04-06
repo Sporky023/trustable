@@ -1,0 +1,6 @@
+<% @claims.each do |claim| %>
+  <div class="claim">
+  	<p><%= h claim.entity %></p>
+	<p><%= link_to "re: #{claim.entity} on #{claim.created_at}", claim_path(claim) %></p>
+  </div>
+<% end %>

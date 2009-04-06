@@ -1,0 +1,7 @@
+
+<% form_for @claim do |form| %>
+	<%= form.text_field :entity %>
+	<%= form.text_area :body %>
+	<%= form.text_area :sources %>
+	<%= form.submit "create" %>
+<% end %>
