@@ -1,6 +1,7 @@
+<%= link_to 'report a new claim', new_claim_path %>
+
 <% @claims.each do |claim| %>
-  <div class="claim">
-  	<p><%= h claim.entity %></p>
-	<p><%= link_to "re: #{claim.entity} on #{claim.created_at}", claim_path(claim) %></p>
-  </div>
+  	<%= render :partial => 'claim', :locals => {:claim => claim}%>
 <% end %>
+
+<%= link_to 'report a new claim', new_claim_path %>

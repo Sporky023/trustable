@@ -1,0 +1,8 @@
+
+
+
+<a href="<%= claim_path(claim) %>">
+<div class="claim">
+	<span id="entity"><%= "#{claim.entity}#{claim.happened_at.nil? ? '': ' '+claim_happened_at }" %>:</span> "<%= claim.body %>"<br/>
+</div>
+</a>

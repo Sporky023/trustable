@@ -1,0 +1,71 @@
+div#header_nav{
+	padding: 0px 0px;
+	background-color: black;
+}
+div#header_nav a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	margin: 15px;
+	padding: 5px;
+	color: red;
+	font-size: 20px;
+	border: solid thick red;
+	text-align: center;
+	
+}
+
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.claim {
+	background-color: #fff;
+	border: solid red;
+	border-width: 1px 2px 2px 1px; ;
+	border-color: #fcc #f77 #f00 #fbb;
+	
+	padding: 4px 10px;
+	width: 600px;
+	margin: 10px;
+	text-align: left;
+}
+div.claim a {
+	color: #599;
+}
+div.claim span#entity{
+	color: #099;
+}
+span.examples{
+	color: #2a2;
+	font-size: 10px;
+}
+div.claim label {
+	display: block;
+	font-size: 13px;
+	font-family: arial;
+	color: black;
+	margin: 0px;
+}
+div.claim h1 {
+	margin: 20px 0px;
+}
+div.claim ul {
+	margin: 0px;
+	padding: 0px;
+}
+div.claim ul li {
+	list-style-type: none;
+	margin: 15px 0px;
+	position: 0px;
+}
+
+
+
+div#body {
+	width: 800px;
+	background-color: #fff;
+	padding: 20px;
+}

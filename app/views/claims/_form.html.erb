@@ -1,0 +1,29 @@
+<ul>
+	<li>
+		<label for="entity">
+			Who said this? name or url:<br/>
+			
+		</label>
+		<%= f.text_field :entity %><br/>
+		<span class="examples">
+			<b>Examples:</b> the New York Times, Bob, 'Barack Obama'
+		</span>
+		
+	</li>
+	<li><label for="entity">What did they say?</label><%= f.text_area :body, :size => '40x5' %><br/>
+		<span class="examples">
+			<b>Example:</b><br/>
+			This man, who is the current grand poobah of Minas Tirith,<br/> claimed that seaweed could cover half of africa within the next 30 years.
+		</span>
+	</li>
+	<li><label for="entity">Where did you read/hear/see this?</label><%= f.text_area :sources, :size => '40x2' %><br/>
+		<span class="examples">
+			<b>Examples:</b><br/>
+			http://nytimes.com/stories/344 (links are preferred)<br/> 
+			<br/>
+			"Article Title" <i>MyJournal of Sciency-things</i> 1992. Vol 34, p. 4,567,
+		</span>
+	</li>
+	
+	<li><label for="entity">Sumbit</label><%= f.submit "create" %></li>
+</ul>

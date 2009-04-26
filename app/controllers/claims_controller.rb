@@ -1,4 +1,7 @@
 class ClaimsController < ApplicationController
+  
+  layout 'application'
+  
   def index
     @claims = Claim.all
   end
@@ -15,6 +18,10 @@ class ClaimsController < ApplicationController
       flash[:error] = "You had some information missing in your claim"
       render :action => 'new'
     end
+  end
+  
+  def show
+    @claim = Claim.find(params[:id])
   end
   
 end
