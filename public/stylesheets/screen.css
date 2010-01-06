@@ -1,3 +1,11 @@
+div#headline{
+	font-family: georgia;
+	font-size: 30px;
+	border-width: 2px 0px 2px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+}
 div#header_nav{
 	padding: 0px 0px;
 	background-color: black;
@@ -67,5 +75,5 @@ div.claim ul li {
 div#body {
 	width: 800px;
 	background-color: #fff;
-	padding: 20px;
+	padding: 0px 20px;
 }

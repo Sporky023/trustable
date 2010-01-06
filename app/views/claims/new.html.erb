@@ -1,7 +1,8 @@
 
-<h1>new claim</h1>
+<h1>report a claim:</h1>
 <div class="claim">
 	<% form_for @claim do |f| %>
 		<%= render :partial => 'form', :locals => {:f => f}%>
+		<%= f.submit "create" %>
 	<% end %>
 </div>
